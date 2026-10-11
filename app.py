@@ -11,7 +11,7 @@ def system_health():
     current_Memory = psutil.virtual_memory().percent
 
     return f"""
-    <h1>EC2 System Health</h1>
+    <h1>Ahmar's EC2 System Health</h1>
 
     <p>CPU Usage: {current_CPU}%</p>
     <p>Disk Usage: {current_Disk}%</p>
